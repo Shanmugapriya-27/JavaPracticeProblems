@@ -1,0 +1,20 @@
+//to print even length words
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+        String word ="This is a den";
+        String[] sen = word.split(" ");
+        for(String s:sen){
+            if(s.length()%2==0){
+                System.out.println(s);
+            }
+        }
+        
+    }
+}
+
+output:
+java -cp /tmp/mmSrI6sgiS HelloWorld
+Hello, World!
+This
+is
