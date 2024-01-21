@@ -1,0 +1,30 @@
+package tets;
+
+import java.util.HashSet;
+
+public class unquieArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String[] names1 = new String[] {"Ava", "Emma", "Olivia", "Emma"};
+        String[] names2 = new String[] {"Olivia", "Sophia", "Emma", "Sophia"};
+        
+        HashSet<String> set = new HashSet<>();
+        for(int i =0; i<names1.length;i++) {
+        	set.add(names1[i]);        	
+        	
+        }
+        
+        for(int i =0; i<names2.length;i++) {
+        	set.add(names2[i]);
+        	
+        }
+
+    	System.out.println(set);
+        
+        
+
+	}
+
+}
